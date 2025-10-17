@@ -18,29 +18,55 @@
 
 .profile__name {
   margin: 0 0 12px;
+  font-family: "Poppins";
   font-weight: 500;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #212121;
 }
 
 .profile__description {
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  opacity: 70%;
 }
 
 .profile__add-btn {
   margin-left: auto;
-  margin-top: auto;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
   width: 149px;
   height: 52px;
-  padding: 0px 24px;
-  gap: 8px;
-  border: none;
   border-radius: 8px;
+  gap: 8px;
   background-color: #212121;
   color: #fcf5e5;
+  border: none;
+  align-self: end;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
-  transition: opacity 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+.profile__add-btn:hover {
+  opacity: 80%;
   cursor: pointer;
 }
 
@@ -49,7 +75,6 @@
   margin-top: auto;
   font-family: Poppins;
   font-weight: 500;
-  /* font-size: 16px; */
   line-height: 100%;
   letter-spacing: 0%;
   color: #212121;
@@ -60,14 +85,12 @@
   padding: 0;
   gap: 8px;
   opacity: 70%;
-  /* justify-content: center;
-  margin-right: auto; */
 }
 
-/* .profile__edit-btn:hover {
+.profile__edit-btn:hover {
   opacity: 1;
   cursor: pointer;
-} */
+}
 
 @media screen and (max-width: 627px) {
   .profile {
@@ -75,6 +98,13 @@
     max-width: 288px;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
+  }
+  .profile__name {
+    margin: 0 0 6px;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 288px;
   }
 
   .profile__avatar {
@@ -93,7 +123,6 @@
   .profile__add-btn {
     margin: 0;
     width: 100%;
-    justify-content: center;
   }
   .profile__edit-btn {
     justify-content: center;
