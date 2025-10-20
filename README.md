@@ -28,3 +28,7 @@ https://brandonwirz.github.io/se_project_spots/
 
 Loom video screencast:
 https://www.loom.com/share/ed2eb0c41ca04eedadd82836f3008f33?sid=7d9cfcba-5cdc-40b8-93f5-a5d9d1c7b7e5
+
+![alt text](brandonwirz-spots-desktop-view.png)
+
+![alt text](<brandonwirz-spots- mobile-view.png>)
