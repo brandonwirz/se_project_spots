@@ -10,8 +10,8 @@ Responsive design from desktop to mobile.
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-An interactive image-sharing application. Users will be able to add and remove photos, like photos from other users, and make minor adjustments to their profile.
+This project is made so all the elements are displayed correctly on popular screen sizes using Flexbox, grid and media queries.
+Spots is an interactive image-sharing application. Users will be able to add and remove photos, like photos from other users, and make minor adjustments to their profile.
 
 **Figma**
 
