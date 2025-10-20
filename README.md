@@ -1,5 +1,7 @@
 # Project 3: Spots
 
+Responsive design from desktop to mobile.
+
 ### Overview
 
 - Intro
@@ -9,6 +11,7 @@
 **Intro**
 
 This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+An interactive image-sharing application. Users will be able to add and remove photos, like photos from other users, and make minor adjustments to their profile.
 
 **Figma**
 
@@ -20,5 +23,8 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 Good luck and have fun!
 
-Project URL:
+Spots Project URL:
 https://brandonwirz.github.io/se_project_spots/
+
+Loom video screencast:
+https://www.loom.com/share/ed2eb0c41ca04eedadd82836f3008f33?sid=7d9cfcba-5cdc-40b8-93f5-a5d9d1c7b7e5
