@@ -31,4 +31,4 @@ https://www.loom.com/share/ed2eb0c41ca04eedadd82836f3008f33?sid=7d9cfcba-5cdc-40
 
 ![alt text](brandonwirz-spots-desktop-view.png)
 
-![alt text](<brandonwirz-spots- mobile-view2.png>)
+![alt text](brandonwirz-spots-mobile-view.png)
