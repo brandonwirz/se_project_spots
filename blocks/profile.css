@@ -40,8 +40,6 @@
   -webkit-box-orient: vertical;
   max-width: 420px;
   color: #212121;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   opacity: 70%;
 }
@@ -67,20 +65,17 @@
 
 .profile__add-btn:hover {
   opacity: 80%;
-  cursor: pointer;
 }
 
 .profile__edit-btn {
   display: flex;
   margin-top: auto;
-  font-family: Poppins;
-  font-weight: 500;
   line-height: 100%;
   color: #212121;
   text-align: start;
   background-repeat: no-repeat;
   border: none;
-  background-color: #fcf5e5;
+  background-color: transparent;
   padding: 0;
   gap: 8px;
   opacity: 70%;
@@ -88,7 +83,6 @@
 
 .profile__edit-btn:hover {
   opacity: 1;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
@@ -102,7 +96,6 @@
 
   .profile__name {
     margin: 0 0 6px;
-    font-weight: 500;
     font-size: 20px;
     max-width: 288px;
   }

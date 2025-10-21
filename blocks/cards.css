@@ -21,5 +21,6 @@
   }
   .cards {
     padding-bottom: 20px;
+    max-width: 288px;
   }
 }
