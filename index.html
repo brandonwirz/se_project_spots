@@ -116,6 +116,69 @@
       <footer class="footer">
         <p class="footer__text">2025©Spots</p>
       </footer>
+      <div class="modal modal_ls-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn">X</button>
+          <h2 class="modal__title">Edit Profile</h2>
+          <form class="modal__form">
+            <label class="modal__label" for="profile-name-input">
+              Name
+              <input
+                class="modal__input"
+                id="profile-name-input"
+                type="text"
+                placeholder="Type your name"
+              />
+            </label>
+            <label
+              class="modal__label"
+              for="profile-description-input"
+              placeholder="Describe yourself"
+            >
+              Desscription
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_ls-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn">X</button>
+          <h2 class="modal__title">New Post</h2>
+          <form class="modal__form">
+            <label class="modal__label" for="card-img-input">
+              Image Link
+              <input
+                class="modal__input"
+                id="card-img-input"
+                type="url"
+                placeholder="Past a link to the picture"
+              />
+            </label>
+
+            <label
+              class="modal__label"
+              for="profile-description-input"
+              placeholder="Describe yourself"
+            >
+              Desscription
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
