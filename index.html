@@ -118,7 +118,7 @@
       </footer>
       <div class="modal modal_ls-opened">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn">X</button>
+          <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">Edit Profile</h2>
           <form class="modal__form">
             <label class="modal__label" for="profile-name-input">
@@ -147,9 +147,9 @@
           </form>
         </div>
       </div>
-      <div class="modal modal_ls-opened">
+      <div class="modal">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn">X</button>
+          <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">New Post</h2>
           <form class="modal__form">
             <label class="modal__label" for="card-img-input">
@@ -158,21 +158,21 @@
                 class="modal__input"
                 id="card-img-input"
                 type="url"
-                placeholder="Past a link to the picture"
+                placeholder="Paste a link to the picture"
               />
             </label>
 
             <label
               class="modal__label"
-              for="profile-description-input"
+              for="card-img-caption"
               placeholder="Describe yourself"
             >
-              Desscription
+              Caption
               <input
-                id="profile-description-input"
+                id="card-img-caption"
                 type="text"
                 class="modal__input"
-                placeholder="Describe yourself"
+                placeholder="Type your caption"
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
