@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.modal_ls-opened {
+.modal_is-opened {
   visibility: visible;
 }
 

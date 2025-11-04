@@ -44,7 +44,7 @@
   opacity: 70%;
 }
 
-.profile__add-btn {
+.profile__new-post-btn {
   margin-left: auto;
   padding: 18px 32px;
   width: 149px;
@@ -63,7 +63,7 @@
   white-space: nowrap;
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
   opacity: 80%;
 }
 
@@ -115,7 +115,7 @@
     margin: 0 0 20px;
   }
 
-  .profile__add-btn {
+  .profile__new-post-btn {
     margin: 0;
     width: 100%;
   }
