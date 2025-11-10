@@ -51,11 +51,10 @@ editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-
   // Log both input values to the console.
-  console.log(namePostInput.value);
   console.log(linkPostInput.value);
-  editProfileModal.classList.remove("modal_is-opened");
+  console.log(namePostInput.value);
+  newPostModal.classList.remove("modal_is-opened");
 }
 
 addCardFormElement.addEventListener("submit", handleAddCardSubmit);
