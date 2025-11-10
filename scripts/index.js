@@ -18,6 +18,9 @@ const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 const addCardFormElement = newPostModal.querySelector(".modal__form");
 
+const namePostInput = newPostModal.querySelector("#card-img-caption");
+const linkPostInput = newPostModal.querySelector("#card-img-input");
+
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
@@ -36,27 +39,22 @@ newPostCloseBtn.addEventListener("click", function () {
   newPostModal.classList.remove("modal_is-opened");
 });
 
-function handleProfileFormSubmit(evt) {
+function handleEditProfileFormSubmit(evt) {
   evt.preventDefault();
   console.log("submitting....");
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
   editProfileModal.classList.remove("modal_is-opened");
-
-  // Get the values of each form field from the value
-  // property of the corresponding input element.
-
-  // Insert these new values into the textContent
-  // property of the corresponding profile elements.
 }
 
-editProfileForm.addEventListener("submit", handleProfileFormSubmit);
+editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
-  console.log("card-img-input");
-  console.log("card-img-caption");
+  // Log both input values to the console.
+  console.log(namePostInput.value);
+  console.log(linkPostInput.value);
   editProfileModal.classList.remove("modal_is-opened");
 }
 
