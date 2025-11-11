@@ -1,6 +1,10 @@
 # Project 3: Spots
 
 Responsive design from desktop to mobile.
+Added JavaScript modal functionality with smooth CSS transitions.
+Add and change profile name and title.
+Create new post URL and caption.
+Value logged to the conosle.
 
 ### Overview
 
@@ -25,9 +29,6 @@ Good luck and have fun!
 
 Spots Project URL:
 https://brandonwirz.github.io/se_project_spots/
-
-Loom video screencast:
-https://www.loom.com/share/ed2eb0c41ca04eedadd82836f3008f33?sid=7d9cfcba-5cdc-40b8-93f5-a5d9d1c7b7e5
 
 ![alt text](brandonwirz-spots-desktop-view.png)
 ![alt text](brandonwirz-spots-mobile-view1.png)

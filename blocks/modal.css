@@ -42,6 +42,7 @@
   background-image: no-repeat;
   background-color: transparent;
   border: none;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .modal__close-btn:hover {
