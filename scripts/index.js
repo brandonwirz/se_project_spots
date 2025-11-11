@@ -16,6 +16,7 @@ const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
+
 const addCardFormElement = newPostModal.querySelector(".modal__form");
 
 const namePostInput = newPostModal.querySelector("#card-img-caption");
