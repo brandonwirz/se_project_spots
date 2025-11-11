@@ -12,7 +12,6 @@
       content="HTML, CSS, Responsive Web Design Sprint 3 final project"
     />
     <meta name="author" content="Brandon Wirz" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Spots</title>
@@ -113,7 +112,7 @@
           </ul>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer page__section">
         <p class="footer__text">2025©Spots</p>
       </footer>
       <div class="modal" id="edit-profile-modal">
@@ -130,11 +129,7 @@
                 placeholder="Type your name"
               />
             </label>
-            <label
-              class="modal__label"
-              for="profile-description-input"
-              placeholder="Describe yourself"
-            >
+            <label class="modal__label" for="profile-description-input">
               Desscription
               <input
                 id="profile-description-input"
@@ -157,16 +152,12 @@
               <input
                 class="modal__input"
                 id="card-img-input"
-                type="url"
+                type="text"
                 placeholder="Paste a link to the picture"
               />
             </label>
 
-            <label
-              class="modal__label"
-              for="card-img-caption"
-              placeholder="Describe yourself"
-            >
+            <label class="modal__label" for="card-img-caption">
               Caption
               <input
                 id="card-img-caption"
