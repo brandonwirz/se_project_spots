@@ -47,6 +47,7 @@ const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 // const addCardFormElement = newPostModal.querySelector(".modal__form");
 
+const editPostForm = newPostModal.querySelector(".modal__form");
 const postForm = document.forms.editPostForm;
 
 const namePostInput = newPostModal.querySelector("#card-img-caption");
