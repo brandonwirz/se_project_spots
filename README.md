@@ -5,6 +5,7 @@ Added JavaScript modal functionality with smooth CSS transitions.
 Add and change profile name and title.
 Create new post URL and caption.
 Value logged to the conosle.
+Created functions to add and remove classes that are more reusable.
 
 ### Overview
 
