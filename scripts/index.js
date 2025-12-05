@@ -45,7 +45,6 @@ const profileDescriptionEl = document.querySelector(".profile__description");
 const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
-// const addCardFormElement = newPostModal.querySelector(".modal__form");
 
 const editPostForm = newPostModal.querySelector(".modal__form");
 const postForm = document.forms.editPostForm;
