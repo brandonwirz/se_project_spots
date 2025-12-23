@@ -52,6 +52,7 @@ const postForm = document.forms.editPostForm;
 const namePostInput = newPostModal.querySelector("#card-img-caption");
 const linkPostInput = newPostModal.querySelector("#card-img-input");
 
+const cardsList = document.querySelector(".cards__list");
 const cardTemplate = document
   .querySelector("#card-template")
   .content.querySelector(".card");
@@ -115,5 +116,7 @@ editPostForm.addEventListener("submit", handleAddCardSubmit);
 
 initialCards.forEach(function (item) {
   // console.log(item);
-  console.log(getCardElement(item));
+  // console.log(getCardElement(item));
+  const cardElement = getCardElement(item);
+  cardsList.prepend(cardElement);
 });
