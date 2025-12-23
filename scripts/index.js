@@ -106,8 +106,14 @@ editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log(linkPostInput.value);
-  console.log(namePostInput.value);
+  // console.log(linkPostInput.value);
+  // console.log(namePostInput.value);
+  const inputValues = {
+    name: namePostInput.value,
+    link: linkPostInput.value,
+  };
+  const cardElement = getCardElement(inputValues);
+  cardsList.prepend(cardElement);
   closeModal(newPostModal);
   editPostForm.reset();
 }
@@ -118,5 +124,5 @@ initialCards.forEach(function (item) {
   // console.log(item);
   // console.log(getCardElement(item));
   const cardElement = getCardElement(item);
-  cardsList.prepend(cardElement);
+  cardsList.append(cardElement);
 });
