@@ -1,5 +1,9 @@
 const initialCards = [
   {
+    name: "Golden Gate Bridge",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg",
+  },
+  {
     name: "Val Thorens",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
   },
@@ -57,6 +61,13 @@ const cardTemplate = document
   .querySelector("#card-template")
   .content.querySelector(".card");
 
+const previewModal = document.querySelector("#preview-modal");
+const previewModalClosebtn = previewModal.querySelector(".modal__close-btn");
+const previewModalImg = previewModal.querySelector(".modal__img");
+const previewModalImgCaption = previewModal.querySelector(
+  ".modal__img-caption"
+);
+
 function getCardElement(data) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardTitle = cardElement.querySelector(".card__title");
@@ -74,27 +85,38 @@ function getCardElement(data) {
   const cardDeleteElement = cardElement.querySelector(".card__delete-btn");
   cardDeleteElement.addEventListener("click", () => {
     cardElement.remove();
-    cardElement = null;
+    // cardElement = null;
+  });
+
+  cardImage.addEventListener("click", () => {
+    previewModalImg.src = data.link;
+    previewModalImg.alt = data.name;
+    previewModalImgCaption.textContent = data.name;
+    openModal(previewModal);
   });
 
   return cardElement;
 }
 
-editProfileBtn.addEventListener("click", function () {
+editProfileBtn.addEventListener("click", () => {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
   openModal(editProfileModal);
 });
 
-editProfileCloseBtn.addEventListener("click", function () {
+editProfileCloseBtn.addEventListener("click", () => {
   closeModal(editProfileModal);
 });
 
-newPostBtn.addEventListener("click", function () {
+previewModalClosebtn.addEventListener("click", () => {
+  closeModal(previewModal);
+});
+
+newPostBtn.addEventListener("click", () => {
   openModal(newPostModal);
 });
 
-newPostCloseBtn.addEventListener("click", function () {
+newPostCloseBtn.addEventListener("click", () => {
   closeModal(newPostModal);
 });
 

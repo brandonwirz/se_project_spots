@@ -43,6 +43,7 @@
   padding: 0;
   border: none;
 }
+
 .card__delete-btn:hover {
   background-image: url("../images/delete-hover.png");
   width: 32px;
@@ -85,6 +86,7 @@
   .card__img {
     height: 288px;
   }
+
   .card__title {
     font-size: 16px;
     line-height: 100%;
