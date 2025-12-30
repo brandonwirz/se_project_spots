@@ -43,13 +43,10 @@ const editProfileDescriptionInput = editProfileModal.querySelector(
 );
 
 const profileNameEl = document.querySelector(".profile__name");
-
 const profileDescriptionEl = document.querySelector(".profile__description");
-
 const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
-
 const editPostForm = newPostModal.querySelector(".modal__form");
 const postForm = document.forms.editPostForm;
 
@@ -85,7 +82,6 @@ function getCardElement(data) {
   const cardDeleteElement = cardElement.querySelector(".card__delete-btn");
   cardDeleteElement.addEventListener("click", () => {
     cardElement.remove();
-    // cardElement = null;
   });
 
   cardImage.addEventListener("click", () => {
@@ -139,8 +135,6 @@ editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  // console.log(linkPostInput.value);
-  // console.log(namePostInput.value);
   const inputValues = {
     name: namePostInput.value,
     link: linkPostInput.value,
@@ -154,8 +148,6 @@ function handleAddCardSubmit(evt) {
 editPostForm.addEventListener("submit", handleAddCardSubmit);
 
 initialCards.forEach(function (item) {
-  // console.log(item);
-  // console.log(getCardElement(item));
   const cardElement = getCardElement(item);
   cardsList.append(cardElement);
 });

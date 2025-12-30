@@ -146,6 +146,7 @@
 
 .modal__img-caption {
   background-color: #212121;
+  position: absolute;
   border-radius: 8px;
   margin: 8px 0 0;
   color: #fff;
@@ -155,7 +156,6 @@
   justify-content: left;
   line-height: 120%;
   padding: 4px 8px;
-  position: absolute;
   width: fit-content;
 }
 
@@ -201,12 +201,13 @@
     max-width: none;
     width: 100%;
   }
+
   .modal__img {
     max-width: unset;
   }
+
   .modal__img-caption {
-    bottom: -35.5px;
+    /* bottom: -35.5px; */
     font-size: 16px;
-    /* left: 6px; */
   }
 }
