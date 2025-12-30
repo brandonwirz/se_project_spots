@@ -147,14 +147,13 @@
 .modal__img-caption {
   background-color: #212121;
   border-radius: 8px;
-  bottom: -40px;
+  margin: 8px 0 0;
   color: #fff;
   display: block;
   font-size: 20px;
   font-weight: 500;
   justify-content: left;
   line-height: 120%;
-  margin: 0;
   padding: 4px 8px;
   position: absolute;
   width: fit-content;
