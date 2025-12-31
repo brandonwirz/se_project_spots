@@ -88,7 +88,7 @@
         <div class="modal__container">
           <button type="button" class="modal__close-btn"></button>
           <h2 class="modal__title">New Post</h2>
-          <img src="#" alt="" />
+          <img src="" alt="" />
           <form class="modal__form" name="editPostForm">
             <label class="modal__label" for="card-img-input">
               Image Link
@@ -97,6 +97,7 @@
                 id="card-img-input"
                 type="text"
                 placeholder="Paste a link to the picture"
+                required
               />
             </label>
 
@@ -107,6 +108,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -118,7 +120,7 @@
           <button
             aria-label="Close modal"
             type="button"
-            class="modal__close-btn modal__close_type_preview"
+            class="modal__close-btn modal__close-btn_type_preview"
           ></button>
           <img class="modal__img" src="#" alt="" />
           <p class="modal__img-caption"></p>

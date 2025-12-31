@@ -33,7 +33,7 @@ const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 const editProfileForm = editProfileModal.querySelector(".modal__form");
-const profileForm = document.forms.editProfileForm;
+// const profileForm = document.forms.editProfileForm;
 
 const editProfileNameInput = editProfileModal.querySelector(
   "#profile-name-input"
@@ -48,7 +48,7 @@ const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const editPostForm = newPostModal.querySelector(".modal__form");
-const postForm = document.forms.editPostForm;
+// const postForm = document.forms.editPostForm;
 
 const namePostInput = newPostModal.querySelector("#card-img-caption");
 const linkPostInput = newPostModal.querySelector("#card-img-input");
@@ -59,7 +59,7 @@ const cardTemplate = document
   .content.querySelector(".card");
 
 const previewModal = document.querySelector("#preview-modal");
-const previewModalClosebtn = previewModal.querySelector(".modal__close-btn");
+const previewModalCloseBtn = previewModal.querySelector(".modal__close-btn");
 const previewModalImg = previewModal.querySelector(".modal__img");
 const previewModalImgCaption = previewModal.querySelector(
   ".modal__img-caption"
@@ -104,7 +104,7 @@ editProfileCloseBtn.addEventListener("click", () => {
   closeModal(editProfileModal);
 });
 
-previewModalClosebtn.addEventListener("click", () => {
+previewModalCloseBtn.addEventListener("click", () => {
   closeModal(previewModal);
 });
 
